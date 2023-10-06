@@ -1,0 +1,2 @@
+// ini komentar
+/* multiline komentar*/

@@ -1,3 +1,12 @@
+let halaman;
+var bagian;
+
+halaman = "Home";
+bagian = "Bagian";
+
+// let halaman = "Error karena redeclare";
+var bagian = "amannn";
+
 const nama = "Nama saya : Al Riansyah";
 let hobby = 'Hobby saya : Game';
 var age = 20;

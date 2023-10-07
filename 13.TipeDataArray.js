@@ -40,3 +40,8 @@ console.log("-----------------------");
 fruits.pop();
 console.table(fruits);
 console.log("-----------------------");
+
+// Array dalam array / multi dimensi :
+fruits.push(["jeruk bali", "nangka", "melon"]);
+console.table(fruits);
+console.log("-----------------------");

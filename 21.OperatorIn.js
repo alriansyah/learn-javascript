@@ -20,3 +20,4 @@ const check = "isAdmin" in user;
 console.log(check);
 
 // jika valuenya bernilai null atau undefined maka akan tetap di anggap ada / true
+// intinya selama index dan propertinya ada maka akan true, walaupun bernilai undefined atau null

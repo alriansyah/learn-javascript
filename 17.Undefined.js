@@ -1,6 +1,6 @@
 // Undefined adalah sebuah kata kunci di javascript
 // Undefined merupakan tipe data yang merepresentasikan sebuah variable yang
-// belum diinisialiasi nilainya.
+// belum didefinisikan nilainya.
 // let nilai = undefined; // error
 let nilai; // error
 console.log(nilai);

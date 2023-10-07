@@ -45,3 +45,5 @@ console.log("-----------------------");
 // Nan :
 const kata = "Oke";
 console.log(parseInt(kata)); // NaN
+
+console.log(isNaN(kata));

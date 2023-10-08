@@ -12,7 +12,7 @@ console.log(person.alamat);
 console.log(person.age);
 
 
-// menggunakan with statement :
+// menggunakan with statement (mengecilkan scope/cakupan) :
 with (person) {
     console.log(name);
     console.log(alamat);

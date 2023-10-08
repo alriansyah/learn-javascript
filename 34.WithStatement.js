@@ -1,4 +1,4 @@
-// With statement tidak boleh digunakan
+// With statement tidak boleh digunakan karena ambigu
 
 // Tanpa With statement :
 const person = {

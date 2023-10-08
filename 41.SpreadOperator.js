@@ -25,16 +25,3 @@ const numbersTwo = [4, 5, 6];
 const numbersCombined = [...numbersOne, ...numbersTwo];
 console.log(numbersCombined);
 console.log("-----------------------");
-
-
-// Argumens object :
-// - fitur lama sebelum ada rest parameter
-// - saat ini tidak di rekomendasikan
-function oldSum() {
-    let total = 0;
-    for (const item of arguments) {
-        total += item;
-    }
-    console.log(`Total : ${total}`);
-}
-oldSum(10, 20, 30, 40);

@@ -17,3 +17,17 @@ sum("Anggur", 10, 20, 30, 40);
 sum("Banana", 10, 20, 30, 40, 50);
 sum("Jeruk", 10, 20, 30, 40, 50, 60);
 sum("Nangka", [10, 20, 30, 40, 50, 60]); // output [[10, 20, 30, 40, 50, 60]], solusinya gunakan spread operator
+
+
+
+// Argumens object :
+// - fitur lama sebelum ada rest parameter
+// - saat ini tidak di rekomendasikan
+function oldSum() {
+    let total = 0;
+    for (const item of arguments) {
+        total += item;
+    }
+    console.log(`Total : ${total}`);
+}
+oldSum(10, 20, 30, 40);

@@ -13,3 +13,13 @@ for (const iterator of fullName) {
     console.log(iterator);
 }
 
+const person = {
+    name: "Al Riansyah",
+    age: 20
+}
+
+// error karena object buka iterable
+for (const iterator of person) {
+    console.log(iterator);
+}
+
